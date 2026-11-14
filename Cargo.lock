@@ -971,6 +971,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "craft-modal"
+version = "0.1.0"
+dependencies = [
+ "egui",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "craft-offcrypto"
 version = "0.1.0"
 source = "git+https://github.com/storytold/craft-libs?rev=bb57d422d0bc842cbde430955825553ab7b976f4#bb57d422d0bc842cbde430955825553ab7b976f4"
@@ -2328,6 +2337,7 @@ dependencies = [
 name = "gridcraft-ui-egui"
 version = "0.19.1"
 dependencies = [
+ "craft-modal",
  "craft-ui",
  "craft-update",
  "craft-window",
